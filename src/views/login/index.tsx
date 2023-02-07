@@ -5,9 +5,8 @@ import styles from "./styles.module.scss";
 
 const Login = () => {
   const onFinish = async (values: any) => {
-    console.log(values);
     const res = await login(values.username, values.password);
-    console.log(res.data.token);
+    localStorage.setItem("token", res.data.token);
   };
 
   return (

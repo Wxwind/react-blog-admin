@@ -60,7 +60,7 @@ serve.interceptors.response.use(
 
     console.log(`收到消息`);
     console.log(response);
-    if (meta.status === 200) {
+    if (meta.status === 200 || meta.status === 0) {
       return response;
     } else {
       //服务器内部逻辑输出了非200的状态码
