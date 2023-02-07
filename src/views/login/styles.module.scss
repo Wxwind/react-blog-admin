@@ -1,3 +1,19 @@
-.aaaa {
-  padding-left: 0px;
+.background {
+  background-color: #dfe4ea;
+  height: 100%;
+}
+
+.form {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+}
+
+.title {
+  font-size: 26px;
+  color: #000000;
+  margin: 0 auto 40px;
+  text-align: center;
+  font-weight: 700;
 }

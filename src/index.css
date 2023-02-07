@@ -11,14 +11,18 @@ body {
   margin: 0;
   font-size: 20px;
   box-sizing: border-box;
+  position: relative;
+  height:100%;
 }
 
-a{
-  text-decoration: none;
-  color: black;
- 
+html{
+  height:100%;
+  position: relative;
 }
 
-a:hover {
-  color: #567087;
+
+
+#root{
+  height:100%;
+  position: relative;
 }
